@@ -20,7 +20,81 @@ body{
     
 }
 
-h1{
+h1.heading{
     max-width: 50px;
 }
 
+.box{
+    border: 1px solid lightgray;
+    width: 770px;
+    padding: 10px;
+    margin: 50px auto;
+    border-radius: 14px;
+}
+.box-img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+h1.image{
+    font-weight: 400;
+}
+
+.story-container{
+    width: 990px;
+    margin: 60px 25%;
+    display: flex;
+    gap: 10px;
+    transition: .3s;
+}
+.story{
+    text-align: center;
+    transition: .3s;
+}
+.story-img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.login{
+    width: 350px;
+    margin: 120px auto;
+    text-align: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 120px 40px;
+    border-radius: 20px;
+}
+.input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+.login-btn{
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+/* box-sizing:border-box ensures u can apply padding and the content does not go 
+out of the parent element */
+.logo{
+    height: 100px;
+}
+
+.svgicon{
+    background-color: white;
+    width: 30px;
+}
